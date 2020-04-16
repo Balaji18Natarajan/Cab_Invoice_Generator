@@ -53,11 +53,11 @@ public class TripValidator {
 				}
 			}
 			if (count != 5) {
-				return (count+ "Invalid Booking ID");
+				return "Invalid Booking ID";
 			}
 		}
 		else
-			return "2. Invalid Booking ID";
+			return "Invalid Booking ID";
 		
 		if(cabbean.getUserID()<1001 || cabbean.getUserID() > 1500)
 			return "Invalid User ID";
